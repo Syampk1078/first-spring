@@ -11,6 +11,7 @@
     <bean id="upi" class="com.test.UpiPayment"/>
     
     <bean id="billCollector" class="com.test.BillCollector">
+    	<!-- setterInjection using xml config -->
     	<property name="payment" ref="credit"/>
     </bean>
 
